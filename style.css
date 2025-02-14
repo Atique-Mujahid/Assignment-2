@@ -1,7 +1,111 @@
 /* fotawsome cdn linkd add  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* universal selectors  */
-*{
-     font-family: "Inter", serif;
+* {
+  font-family: "Inter", serif;
 }
-     
+/* preferred style  */
+.conatainer {
+  max-width: 1540px;
+  margin: 20px auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.grid {
+  display: grid;
+}
+.orange {
+  color: #e6533c;
+}
+.white {
+  color: #ffffff;
+}
+h1,
+h2,
+h3 {
+  color: #ffffff;
+}
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: #e6533c;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+.btn_primary {
+  padding: 16px 40px;
+  border-radius: 42px;
+  border: 1px solid #fff;
+  background: black;
+  color: #ffffff;
+}
+
+/* header section desgin    */
+header {
+  /* background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%); */
+  background-color: black;
+}
+.first_part {
+  justify-content: space-between;
+}
+.first_part h1 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 800;
+}
+.navBarItems {
+  border: 1px solid rgb(57, 47, 47);
+  border-radius: 40px;
+}
+.navBarItems li {
+  display: flex;
+  /* border: 1px solid red;
+  border-radius: 20px; */
+}
+.navBarItems li a {
+  color: #ffffff;
+  margin-right: 50px;
+  text-decoration: none;
+  font-weight: 400px;
+  font-size: 1.2rem;
+  
+}
+.secound_part {
+  justify-content: space-between;
+  align-items: center;
+}
+.content_side h1 {
+  width: 520px;
+  color: #fff;
+  font-size: 78px;
+  font-weight: 900;
+}
+.content_side .shape {
+  color: #fff;
+  font-family: Miama;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.content_side p {
+  width: 520px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+   margin-bottom: 30px;
+}
+.content_side .main_btn{
+     margin-right: 35px;
+     margin-bottom: 50px;
+}
+.background_side img{
+     width: 100%;
+}
