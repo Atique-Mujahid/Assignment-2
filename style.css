@@ -11,7 +11,7 @@ body{
 main{
      margin: 100px auto 100px  auto;
 }
-.conatainer {
+.container {
   max-width: 1540px;
   margin: 20px auto;
 }
@@ -174,3 +174,36 @@ line-height: 120%; /* 21.6px */
      height: 180px;
      border-radius: 200px;
 }
+/* run part desgin 
+ */
+ .Run_card{
+     justify-content: space-between;
+     /* border: 1px solid tomato; */
+     padding: 30px 50px;
+     border-radius: 18px;
+background: #222;
+ }
+ .left{
+     width: 450px;
+ }
+ .left h1{
+     color: #FFF;
+font-family: Inter;
+font-size: 3rem;
+font-style: normal;
+font-weight: 900;
+line-height: 120%; /* 57.6px */
+ }
+ .left p{
+     color: rgba(255, 255, 255, 0.50);
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.3px;
+margin-bottom: 20px;
+ }
+.right img{
+     width: 500px;
+ }
